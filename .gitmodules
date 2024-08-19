@@ -7,3 +7,6 @@
 [submodule ".sources/st"]
 	path = .sources/st
 	url = https://aur.archlinux.org/st
+[submodule ".sources/libxft-bgra"]
+	path = .sources/libxft-bgra
+	url = https://github.com/uditkarode/libxft-bgra
