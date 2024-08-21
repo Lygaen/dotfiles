@@ -6,6 +6,7 @@ conky | xargs -I % echo -e % | xargs -I % xsetroot -name % &
 xrandr --output HDMI-0 --auto --left-of DP-0 --output DP-0 --auto --primary &
 ./.fehbg &
 lxpolkit &
+greenclip daemon &
 
 while type dwm >/dev/null ; do dwm && continue || break ; done
 
