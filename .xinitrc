@@ -7,7 +7,7 @@ xlayoutdisplay -p DP-0 &
 ./.fehbg &
 lxpolkit &
 greenclip daemon &
-steam -silent &
+steam-native -silent &
 
 while type dwm >/dev/null ; do dwm && continue || break ; done
 
